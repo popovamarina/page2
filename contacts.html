@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Custom phonecases</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+	
+	<link rel="icon" href="favicon/powderpuff-152-223710.png">
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="css/style.css"  type="text/css">
+</head>
+<body>
+	<!-- Main body -->
+	<div class="jumbotron">
+
+		<div class="icon-bar">
+			<img src="img/menu_icon.png">
+			<span class="text-menu">Menu</span>
+		</div>
+
+		<!-- Menu hide -->
+		<div class="menu">     
+			<!-- icon close -->
+			<div class="icon-close">
+				<img src="img/close-windowl.png">
+			</div>
+			<!-- Menu -->
+			<ul>
+				<li class="menu-link" ><a href="index.html">Main</a></li>
+				<li class="menu-link"><a  href="about.html">About</a></li>
+				<li class="menu-link"><a  href="#">Help</a></li>
+				<li class="menu-link" ><a href="contacts.html">Contact</a></li>
+			</ul>
+		</div>
+
+	<!-- 	Main content -->
+<section class="our-contacts">
+<!-- --------Contacts and Map-------- -->
+
+<div class="contacts">
+<span>Address</span>
+<p>Kiev, Mechnikova street, 10/2</p>
+<span>Email</span>
+<p>phonecase@com.ua</p>
+<span>Tel:</span>
+<p>+38 066 999 88 77</p>
+ </div>
+<div class="map">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.216661298008!2d30.52937941577793!3d50.43706489621022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf00d694987b%3A0x628412c1ea00294c!2z0LLRg9C70LjRhtGPINCc0LXRh9C90LjQutC-0LLQsCwgMTAsINCa0LjRl9Cy!5e0!3m2!1sru!2sua!4v1468507447687" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+<!-- ----------- Form ------------>
+
+
+<form name="contact-form">
+<div class="form">
+<span>Contact us </span><br/>
+<label for="name">Name</label>
+<input type="text" name="client-name" id="name" required>
+<br/>
+<label for="email">Email</label>
+<input type="email" name="email" id="email" required>
+<br/>
+<label for="tel">Phone</label>
+<input type="tel" pattern="[0-9]{5,10}" name="client-tel" id="tel" required>
+<br/>
+<label for="subj">Subject</label>
+<select name="subject" id="subj">
+<option value="0">---Select question---</option> 
+<option value="1">General Product Inquiry</option> 
+<option value="2">I need to change my shipping address</option> 
+<option value="3">Order Cancellation Request (Order Number required …</option> 
+<option value="4">I want to modify my order (Order Number required in the message)</option> 
+</select>
+<textarea placeholder="Your message" rows="5" cols="30"></textarea>
+<br/>
+<input type="submit" name="button" value="Send">
+</div>
+</form>
+
+</section>
+		
+		<!-- Footer -->
+	<footer>
+			<div class="social-icons">
+				<a href="#" class="icon icon-fb"></a>
+				<a href="#" class="icon icon-tw"></a>
+				<a href="#" class="icon icon-ytube"></a>
+				<a href="#" class="icon icon-insta"></a>
+			</div>
+			<div class="name">@ Custom phonecases</div>
+		</footer>
+
+	</div>
+	
+	
+
+
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>	
